@@ -41,12 +41,8 @@ module.exports = function(grunt) {
         files: {
           'static/js/scripts.min.js': [
             'bower_components/jquery/dist/jquery.min.js',
-            'bower_components/jquery-placeholder/jquery.placeholder.min.js',
-            'bower_components/waypoints/lib/jquery.waypoints.min.js',
-            'bower_components/jquery-animatenumber/jquery.animateNumber.min.js',
-            'bower_components/bootstrap-3-datepicker/dist/js/bootstrap-datepicker.min.js',
             'bower_components/bootstrap/dist/js/bootstrap.min.js',
-            'js/custom.js'
+            'js/*'
           ]
         }
       }

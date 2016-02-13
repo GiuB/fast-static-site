@@ -18,7 +18,9 @@
 
 ##### Develop with less / js
 
-* From console use `$ grunt watch` so, everytime that you update it combine and compress files (the goal is to produce only one css and one js file super compressed to speed up browser rendering).
+* From console use `$ grunt watch` so, everytime that you change a file grunt combine and compress files (the goal is to produce only one css and one js file super compressed to speed up browser rendering).
+
+Insert into Gruntfile.js new javascripts to combine them into uglify section.
 
 ### The problem
 
