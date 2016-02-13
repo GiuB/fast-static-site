@@ -4,7 +4,7 @@
 
 ### The goal
 
-* Push in your production server only the html minified version of php your php files.
+* Push in your production server only the html minified version of your php files.
 * Push in your production server or CDN all statics and minified files.
 
 ### Warning
