@@ -61,6 +61,7 @@ $ composer install
 
 ### Folder explanation
 
+```sh
 ├── js 				-> Folder of your javascripts
 ├── less 			-> Folder of less files
 ├── static 			-> Folder of minified static files
@@ -76,3 +77,4 @@ $ composer install
     ├── base
     │   └── base.html
     ├── index.html
+```
