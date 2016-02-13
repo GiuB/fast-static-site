@@ -18,7 +18,7 @@
 
 ##### Develop with less / js
 
-* From console use $ grunt watch so, everytime that you update a file the combine and compress files (the goal is to produce only one css and one js file super compressed to speed up browser rendering).
+* From console use `$ grunt watch` so, everytime that you update it combine and compress files (the goal is to produce only one css and one js file super compressed to speed up browser rendering).
 
 ### The problem
 
@@ -26,7 +26,7 @@
 
 ### Install dependecies
 
-There are a lot of dependencies so this is the boring part:
+There are a lot of dependencies so this is the boring step:
 
 ##### Bower (package manager to frontend libraries):
 
