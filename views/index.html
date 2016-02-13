@@ -1,0 +1,43 @@
+{% extends "base/base.html" %}
+
+{% block head %}
+    {{ parent() }}
+
+    <!-- meta -->
+    <title>Title</title>
+    <meta name="description" content="Description">
+    <meta name="author" content="webagency.com">
+	<!-- ./meta -->
+
+{% endblock %}
+{% block content %}
+    <div class="text-center">
+        <h1>Index</h1>
+        <div class="alert alert-success">
+            Yeah, finally it works!
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Edit me
+            </div>
+            <div class="panel-footer">
+                This file is located in views/index.html<br />
+                See <a target="_blank" href="http://twig.sensiolabs.org/doc/templates.html#">Twig doc to use this template engine</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block bottom %}
+
+	{% if DEV_MODE %}
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Custom -->
+		<script src="js/custom.js"></script>
+	{% else %}
+		<script src="{{ STATIC_URL }}/js/scripts.min.js"></script>
+	{% endif %}
+{% endblock %}

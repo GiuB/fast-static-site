@@ -1,0 +1,11 @@
+{
+  "name": "giub",
+  "version": "0.0.0",
+  "authors": [
+    "giub"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*"
+  }
+}
